@@ -23,8 +23,6 @@ var Mezzo = /** @class */ (function () {
         this.stato = 'disponibile';
         this.utente = null;
     }
-    ;
-    ;
     Mezzo.prototype.assegnaUtente = function (utente) {
         this.stato = 'inUso';
         this.utente = utente;

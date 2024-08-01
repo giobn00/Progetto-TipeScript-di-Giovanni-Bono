@@ -1,15 +1,20 @@
+  type metodoPagamento = "carta" | "paypal" | "contanti";
+  type stato = 'disponibile' | 'inUso';
+  type  mezzo = 'bici' | 'scooter' | 'monopattino';
+
+  
   interface IUtente {
     nome: string;
     cognome: string;
     email: string;
-    metodoPagamento: "carta" | "paypal" | "contanti";
+    metodoPagamento: metodoPagamento;
     prenotaMezzo(mezzo: IMezzo): void;
   }
   
   interface IMezzo {
-    tipo: 'bici' | 'scooter' | 'monopattino';
+    tipo: mezzo;
     id: string;
-    stato: 'disponibile' | 'inUso';
+    stato: stato;
     assegnaUtente(utente: IUtente): void;
   }
   
@@ -23,9 +28,9 @@
     nome: string;
     cognome: string;
     email: string;
-    metodoPagamento: "carta" | "paypal" | "contanti"; 
+    metodoPagamento: metodoPagamento; 
   
-    constructor(nome: string, cognome: string, email: string, metodoPagamento: any) {
+    constructor(nome: string, cognome: string, email: string, metodoPagamento: metodoPagamento) {
       this.nome = nome;
       this.cognome = cognome;
       this.email = email;
@@ -43,9 +48,9 @@
   }
   
   class Mezzo implements IMezzo {
-    tipo: 'bici' | 'scooter' | 'monopattino';;
+    tipo: mezzo;
     id: string;
-    stato:  'disponibile' | 'inUso';;
+    stato:  stato;
     utente: IUtente | null;
   
     constructor(tipo: any, id: string) {
