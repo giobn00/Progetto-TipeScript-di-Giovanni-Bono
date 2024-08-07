@@ -4,7 +4,8 @@
   "description": "Progetto TypeScript",
   "main": "index.js",
   "scripts": {
-    "verify": "tsc index.ts"
+    "verify": "npm run tsc",
+    "tsc": "tsc *.ts"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,9 @@
   "author": "Giovanni Bono",
   "bugs": {
     "url": "https://github.com/giobn00/Progetto-TypeScript-di-Giovanni-Bono/issues"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5" 
   },
   "homepage": "https://github.com/giobn00/Progetto-TypeScript-di-Giovanni-Bono#readme"
 }
