@@ -39,9 +39,6 @@ Moove
 
 <!-- ABOUT THE PROJECT -->
   # About The Project
-<div align="center">
-  <img src="assets/img/Home_img.png" alt="Logo">
-</div>
 
 Questo progetto mira a sviluppare un sistema in TypeScript che modella la struttura organizzativa di Moove, un servizio innovativo di micromobilità condivisa, focalizzandosi sulle interazioni tra utenti, mezzi di trasporto e le città servite. 
 
@@ -66,6 +63,14 @@ You can copy this project using the command prompt below
 1. Clone the repo
    ```sh
    git clone https://github.com/giobn00/Progetto-TypeScript-di-Giovanni-Bono.git
+   ```
+2. Add the node modules
+   ```sh
+   npm install -y
+   ```
+3. Install the dependencies
+   ```sh
+   npm run verify
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
