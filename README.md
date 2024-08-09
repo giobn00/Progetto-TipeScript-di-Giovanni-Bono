@@ -67,6 +67,14 @@ You can copy this project using the command prompt below
    ```sh
    git clone https://github.com/giobn00/Progetto-TypeScript-di-Giovanni-Bono.git
    ```
+2. Add the node modules
+   ```sh
+   npm install -y
+   ```
+3. Install the dependencies
+   ```sh
+   npm run verify
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
