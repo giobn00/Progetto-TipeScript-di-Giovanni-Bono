@@ -39,9 +39,6 @@ Moove
 
 <!-- ABOUT THE PROJECT -->
   # About The Project
-<div align="center">
-  <img src="assets/img/Home_img.png" alt="Logo">
-</div>
 
 Questo progetto mira a sviluppare un sistema in TypeScript che modella la struttura organizzativa di Moove, un servizio innovativo di micromobilità condivisa, focalizzandosi sulle interazioni tra utenti, mezzi di trasporto e le città servite. 
 
